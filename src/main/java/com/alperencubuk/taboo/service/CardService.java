@@ -19,7 +19,7 @@ public class CardService {
     @Autowired
     CardRepository cardRepository;
 
-    final int forbiddenWordsCount = 5;
+    private final int forbiddenWordsCount = 5;
 
     public ResponseEntity<Card> getCardById(Long id) {
         return cardRepository.findById(id).map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
