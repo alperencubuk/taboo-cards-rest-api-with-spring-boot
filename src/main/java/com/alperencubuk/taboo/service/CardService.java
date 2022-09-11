@@ -61,6 +61,9 @@ public class CardService {
                 it.remove();
             }
         }
+        if (cards.isEmpty()) {
+            return ResponseEntity.ok(updateCards);
+        }
         cardRepository.saveAll(cards);
         cards.addAll(updateCards);
         return ResponseEntity.status(HttpStatus.CREATED).body(cards);
