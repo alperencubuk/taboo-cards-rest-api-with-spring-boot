@@ -6,7 +6,7 @@ This is simple REST API developed with Spring Boot which allows transactions on 
 
 ###   Requirements:
 * Java (JDK 17 used)
-* PostgreSQL server (Version 14.5 used)
+* PostgreSQL (Version 14.5 used)
 * Intellij IDE (Recommended)
 
 ###   JSON Format:
@@ -17,7 +17,7 @@ This is simple REST API developed with Spring Boot which allows transactions on 
     "forbidden": ["Kelime", "Harf", "Ses", "Okumak", "Yazı"]
 }
 ```
-**Note:** Example JSON file can found in `resources/static/words.json`.
+**Note:** Example JSON file can found in `src/main/resources/static/words.json`.
 
 ---
 
@@ -40,18 +40,19 @@ This is simple REST API developed with Spring Boot which allows transactions on 
 ---
 
 ###   Example GET Request:
-####   Request: <code>/getCard/Avize</code>
-####   Response: <code>200 - OK</code>
+####   Request: `/getCard/Avize`
+####   Response: `200 - OK`
 ####   Response Body:
 ```json
 {
+    "id": 3,
     "word": "Avize",
     "forbidden" : ["Lamba", "Kristal", "Tavan", "Işık", "Aydınlık"]
 }
 ```
 ---
 ###   Example POST Request:
-####   Request: <code>/addCards</code>
+####   Request: `/addCards`
 ####   Request Body:
 ```json
 [
@@ -72,7 +73,7 @@ This is simple REST API developed with Spring Boot which allows transactions on 
 	}
 ]
 ```
-####   Response: <code>201 - CREATED</code>
+####   Response: `201 - CREATED`
 
 ####   Response Body:
 ```json
