@@ -1,0 +1,59 @@
+[
+  {
+    "word": "Hece",
+    "forbidden" : ["Kelime", "Harf", "Ses", "Okumak", "Yazı"]
+  },
+  {
+    "word": "Küsmek",
+    "forbidden" : ["Darılmak", "Kızmak", "Konuşmak", "Tartışmak", "Kavga"]
+  },
+  {
+    "word": "Avize",
+    "forbidden" : ["Lamba", "Kristal", "Tavan", "Işık", "Aydınlık"]
+  },
+  {
+    "word": "Koordinat",
+    "forbidden" : ["Yer", "Enlem", "Boylam", "Belirtmek", "Vermek"]
+  },
+  {
+    "word": "Terim",
+    "forbidden" : ["Kelime", "Anlam", "Fatih", "Sanat", "Kavram"]
+  },
+  {
+    "word": "Soyut",
+    "forbidden" : ["Duyu", "Algılamak", "Görülmeyen", "İsim", "Somut"]
+  },
+  {
+    "word": "Baskül",
+    "forbidden" : ["Tartı", "Kilo", "Ağır", "Ölçü", "Hafif"]
+  },
+  {
+    "word": "Halüsinasyon",
+    "forbidden" : ["Hayal", "Gerçek", "Görmek", "İllüzyon", "Serap"]
+  },
+  {
+    "word": "Armağan",
+    "forbidden" : ["Hediye", "Vermek", "Almak", "Doğum Günü", "Sevindirmek"]
+  },
+  {
+    "word": "Antika",
+    "forbidden" : ["Müzayede", "Zengin", "Eski", "Tablo", "Tarihi"]
+  },
+  {
+    "word": "Satranç",
+    "forbidden" : ["Şah-Mah", "Kale", "Vezir", "Piyon", "Fil"]
+  },
+  {
+    "word": "Paraşüt",
+    "forbidden" : ["Uçak", "Atlamak", "Uçmak", "Balon", "Hava"]
+  },
+  {
+    "word": "Tiyatro",
+    "forbidden" : ["Oyuncu", "Sahne", "Perde", "Oyun", "Suflör"]
+  },
+  {
+    "word": "Kedi",
+    "forbidden" : ["Pati", "Fare", "Tüy", "Kuyruk", "Hayvan"]
+  }
+
+]
