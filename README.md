@@ -6,7 +6,7 @@ This is simple REST API developed with Spring Boot which allows transactions on 
 
 ###   Requirements:
 * Java (JDK 17 used)
-* PostgreSQL (Version 14.5 used)
+* PostgreSQL (Version 14 used)
 * Intellij IDE (Recommended)
 
 ###   JSON Format:
